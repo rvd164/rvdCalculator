@@ -176,6 +176,9 @@
                                         <rect key="frame" x="188" y="477.5" width="92.5" height="118"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                         <state key="normal" title="."/>
+                                        <connections>
+                                            <action selector="dotButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JgB-r7-T13"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDw-x1-LfH">
                                         <rect key="frame" x="281.5" y="477.5" width="92.5" height="118"/>

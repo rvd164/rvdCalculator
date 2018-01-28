@@ -14,7 +14,7 @@ class ViewController: UIViewController {
    
     var stillTyping = false
     var firstOperand: Double = 0
-    var SecondOperand: Double = 0
+    var secondOperand: Double = 0
     var operationSign: String = ""
     
     var currentInput: Double {
@@ -50,14 +50,14 @@ class ViewController: UIViewController {
     }
    
     func operateWithTwoOperands(operation: (Double, Double) -> Double) {
-        currentInput = operation(firstOperand, SecondOperand)
+        currentInput = operation(firstOperand, secondOperand)
         stillTyping = false
       //  return currentInput
     }
    
     @IBAction func equalitySignPressd(_ sender: UIButton) {
         if stillTyping {
-            SecondOperand = currentInput
+            secondOperand = currentInput
         }
         switch operationSign {
         case "+" :
@@ -76,18 +76,34 @@ class ViewController: UIViewController {
   
     
     @IBAction func clearButtonPressed(_ sender: UIButton) {
+        firstOperand = 0;
+        secondOperand = 0
+        currentInput = 0
+        displayResultLabel.text = "0"
+        stillTyping = false
+        operationSign = ""
+    
     }
   
     
     @IBAction func plusMinusButtonPressed(_ sender:UIButton ) {
-        
+        currentInput = -currentInput
     }
     
     @IBAction func percenttageButtonPressed(_ sender:UIButton ) {
-        
+        if firstOperand == 0 {
+            currentInput = currentInput / 100
+        } else {
+            secondOperand = secondOperand / 100
+        }
     }
 
     @IBAction func squareButtonPressed(_ sender:UIButton ) {
+        currentInput = sqrt(currentInput)
+    }
+    
+    
+    @IBAction func dotButtonPressed(_ sender:UIButton ) {
         
     }
 
