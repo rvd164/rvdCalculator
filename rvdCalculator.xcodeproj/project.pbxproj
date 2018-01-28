@@ -22,6 +22,7 @@
 		BFE4BF28201DCDFF008156A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE4BF2B201DCDFF008156A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFE4BF2D201DCDFF008156A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE4BF33201DFB77008156A1 /* Calc.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Calc.playground; path = ../../Calc.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			children = (
 				BFE4BF21201DCDFF008156A1 /* AppDelegate.swift */,
 				BFE4BF23201DCDFF008156A1 /* ViewController.swift */,
+				BFE4BF33201DFB77008156A1 /* Calc.playground */,
 				BFE4BF25201DCDFF008156A1 /* Main.storyboard */,
 				BFE4BF28201DCDFF008156A1 /* Assets.xcassets */,
 				BFE4BF2A201DCDFF008156A1 /* LaunchScreen.storyboard */,
