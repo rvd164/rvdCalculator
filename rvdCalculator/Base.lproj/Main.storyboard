@@ -31,16 +31,26 @@
                                         <rect key="frame" x="1" y="1" width="92.5" height="118"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                         <state key="normal" title="C"/>
+                                        <connections>
+                                            <action selector="ClearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N7l-PZ-3Qp"/>
+                                            <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z98-Uj-OUx"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhk-Ku-42f">
                                         <rect key="frame" x="94.5" y="1" width="92.5" height="118"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                         <state key="normal" title="-/+"/>
+                                        <connections>
+                                            <action selector="plusMinusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OSH-rc-F5L"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyj-nw-pCN">
                                         <rect key="frame" x="188" y="1" width="92.5" height="118"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                         <state key="normal" title="%"/>
+                                        <connections>
+                                            <action selector="percenttageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bX6-9q-5hS"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJt-Ae-uEv">
                                         <rect key="frame" x="281.5" y="1" width="92.5" height="118"/>
@@ -150,6 +160,9 @@
                                         <rect key="frame" x="1" y="477.5" width="92.5" height="118"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                         <state key="normal" title="√"/>
+                                        <connections>
+                                            <action selector="squareButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wED-Ax-FqU"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4yO-6B-LPY">
                                         <rect key="frame" x="94.5" y="477.5" width="92.5" height="118"/>
@@ -169,7 +182,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                         <state key="normal" title="="/>
                                         <connections>
-                                            <action selector="equalitySignPressd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6ri-dl-75g"/>
+                                            <action selector="equalitySignPressd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z3T-sJ-mcA"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -283,7 +296,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="396" y="-108"/>
+            <point key="canvasLocation" x="396" y="-108.39580209895054"/>
         </scene>
     </scenes>
 </document>

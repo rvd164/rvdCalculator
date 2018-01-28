@@ -73,6 +73,23 @@ class ViewController: UIViewController {
             break
         }
     }
+  
     
+    @IBAction func clearButtonPressed(_ sender: UIButton) {
+    }
+  
+    
+    @IBAction func plusMinusButtonPressed(_ sender:UIButton ) {
+        
+    }
+    
+    @IBAction func percenttageButtonPressed(_ sender:UIButton ) {
+        
+    }
+
+    @IBAction func squareButtonPressed(_ sender:UIButton ) {
+        
+    }
+
 }
 
