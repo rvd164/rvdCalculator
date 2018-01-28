@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     var firstOperand: Double = 0
     var secondOperand: Double = 0
     var operationSign: String = ""
+    var dotIsPlaced = false
     
     var currentInput: Double {
         get {
@@ -46,6 +47,7 @@ class ViewController: UIViewController {
         firstOperand = currentInput
        // print (firstOperand)
         stillTyping = false
+        dotIsPlaced = false
         
     }
    
@@ -59,6 +61,7 @@ class ViewController: UIViewController {
         if stillTyping {
             secondOperand = currentInput
         }
+        dotIsPlaced = false
         switch operationSign {
         case "+" :
             operateWithTwoOperands{$0 + $1}
@@ -76,12 +79,13 @@ class ViewController: UIViewController {
   
     
     @IBAction func clearButtonPressed(_ sender: UIButton) {
-        firstOperand = 0;
+        firstOperand = 0
         secondOperand = 0
         currentInput = 0
         displayResultLabel.text = "0"
         stillTyping = false
         operationSign = ""
+        dotIsPlaced = false
     
     }
   
@@ -104,7 +108,12 @@ class ViewController: UIViewController {
     
     
     @IBAction func dotButtonPressed(_ sender:UIButton ) {
-        
+        if stillTyping && !dotIsPlaced {
+            displayResultLabel.text = displayResultLabel.text! + "."
+            dotIsPlaced = true
+        } else if !stillTyping && !dotIsPlaced {
+            displayResultLabel.text = "0."
+        }
     }
 
 }

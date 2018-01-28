@@ -10,28 +10,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "rvdCalculator/ViewController.swift"
-            timestampString = "538832759.806744"
+            timestampString = "538835048.38067"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "equalitySignPressd(_:)"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "clearButtonPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "rvdCalculator/ViewController.swift"
-            timestampString = "538832781.8448761"
+            timestampString = "538835247.795557"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "operateWithTwoOperands(operation:)"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "equalitySignPressd(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

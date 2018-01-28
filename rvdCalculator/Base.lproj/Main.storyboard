@@ -32,8 +32,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                         <state key="normal" title="C"/>
                                         <connections>
-                                            <action selector="ClearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N7l-PZ-3Qp"/>
-                                            <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z98-Uj-OUx"/>
+                                            <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hr3-Xh-yVH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhk-Ku-42f">
